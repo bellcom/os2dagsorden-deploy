@@ -30,10 +30,15 @@ libraries[qtip][download][url] = "http://vadikom.com/files/poshytip/poshytip-1.1
 libraries[qtip][directory_name] = "poshy_tip"
 libraries[qtip][destination] = "libraries"
 
-libraries[qtip][download][type] = "get"
-libraries[qtip][download][url] = "https://github.com/downloads/dompdf/dompdf/dompdf_0-6-0_beta3.zip"
-libraries[qtip][directory_name] = "dompdf"
-libraries[qtip][destination] = "libraries"
+libraries[print][download][type] = "get"
+libraries[print][download][url] = "https://github.com/downloads/dompdf/dompdf/dompdf_0-6-0_beta3.zip"
+libraries[print][directory_name] = "dompdf"
+libraries[print][destination] = "libraries"
+
+libraries[jquery_colorpicker][download][type] = "get"
+libraries[jquery_colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[jquery_colorpicker][directory_name] = "colorpicker"
+libraries[jquery_colorpicker][destination] = "libraries"
 
 ; OS2Dagsorden contrib modules
 projects[advanced_help][subdir] = "contrib"
@@ -143,6 +148,9 @@ projects[smtp][version] = "1.0"
 
 projects[lightbox2][subdir] = "contrib"
 projects[lightbox2][version] = "1.0-beta1"
+
+projects[jquery_colorpicker][subdir] = "contrib"
+projects[jquery_colorpicker][version] = "1.0-rc2"
 
 ; LDAP
 projects[ldap][subdir] = "contrib"
