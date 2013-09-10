@@ -79,7 +79,7 @@ function os2dagsorden_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  theme_enable(array('os2dagsorden_theme'));
+  theme_enable(array('os2dagsorden_theme_ballerup'));
   theme_disable(array('bartik'));
   //turn off notification error messages
   variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
