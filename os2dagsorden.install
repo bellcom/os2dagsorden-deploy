@@ -85,7 +85,7 @@ function os2dagsorden_install() {
   variable_set('error_level', ERROR_REPORTING_DISPLAY_SOME);
 
   //Set current theme
-  variable_set('theme_default', 'os2dagsorden_theme');
+  variable_set('theme_default', 'os2dagsorden_theme_ballerup');
   
   // Set admin theme to Seven
   variable_set('admin_theme', 'seven');

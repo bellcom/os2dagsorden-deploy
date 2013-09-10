@@ -9,11 +9,17 @@ projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/bellcom/os2dagsorden.git"
 projects[os2web][download][revision] = "ballerup"
 
-; OS2Dagsorden Theme
+; OS2Dagsorden Base Theme
 projects[os2dagsorden_theme][type] = "theme"
 projects[os2dagsorden_theme][download][type] = "git"
 projects[os2dagsorden_theme][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
-projects[os2dagsorden_theme][download][revision] = "ballerup"
+projects[os2dagsorden_theme][download][revision] = "dev"
+
+; OS2Dagsorden Ballerup Theme
+projects[os2dagsorden_theme_ballerup][type] = "theme"
+projects[os2dagsorden_theme_ballerup][download][type] = "git"
+projects[os2dagsorden_theme_ballerup][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
+projects[os2dagsorden_theme_ballerup][download][revision] = "ballerup"
 
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"
