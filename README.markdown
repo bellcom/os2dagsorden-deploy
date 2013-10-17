@@ -19,7 +19,8 @@ Install an OS2Dagsorden Installation via .make
 Reroll the modules and contrib modules specified in os2dagsorden.make:
 
 7. `cd ../../os2dagsorden-deploy`
-8. `./reroll.dev.sh`
+8. `git checkout ballerup`
+9. `./reroll.dev.sh`
 
 If you need a custom os2dagsorden installation with your own profile. The recommended approach is to fork this repo.
 
