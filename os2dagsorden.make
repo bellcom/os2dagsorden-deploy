@@ -115,7 +115,7 @@ projects[ultimate_cron][version] = "1.7"
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.1"
 
-projects[rules][subdir] = "contrib"
+projects[rules][subdir] = "contib"
 projects[rules][version] = "2.3"
 
 projects[delta][subdir] = "contrib"
