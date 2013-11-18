@@ -103,6 +103,6 @@ dependencies[] = os2dagsorden_settings
 dependencies[] = os2dagsorden_sidepane_menu
 dependencies[] = os2dagsorden_ultimate_cron_configuration
 
-; Ballerup specific installation
+; Ringsted specific installation
 dependencies[] = os2dagsorden_content_modify
 dependencies[] = os2dagsorden_create_agenda
