@@ -106,3 +106,4 @@ dependencies[] = os2dagsorden_ultimate_cron_configuration
 ; Ballerup specific installation
 dependencies[] = os2dagsorden_content_modify
 dependencies[] = os2dagsorden_create_agenda
+dependencies[] = os2web_rules_actions_and_triggers
