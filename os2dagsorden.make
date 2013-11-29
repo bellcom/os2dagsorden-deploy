@@ -7,7 +7,7 @@ core = 7.x
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
 projects[os2web][download][url] = "git://github.com/bellcom/os2dagsorden.git"
-projects[os2web][download][revision] = "ringsted"
+projects[os2web][download][revision] = "ballerup"
 
 ; OS2Dagsorden Base Theme
 projects[os2dagsorden_theme][type] = "theme"
@@ -161,7 +161,7 @@ projects[jquery_colorpicker][version] = "1.0-rc2"
 
 ; LDAP
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "1.0-beta11"
+projects[ldap][version] = "2.0-beta6"
 
 ; Themes
 projects[rubik][version] = "4.0-beta8"
