@@ -166,7 +166,7 @@ projects[jquery_colorpicker][version] = "1.0-rc2"
 
 ; LDAP
 projects[ldap][subdir] = "contrib"
-projects[ldap][version] = "1.0-beta11"
+projects[ldap][version] = "2.0-beta6"
 
 ; Themes
 projects[rubik][version] = "4.0-beta8"
