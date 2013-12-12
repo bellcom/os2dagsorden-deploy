@@ -21,6 +21,11 @@ projects[os2dagsorden_theme_ringsted][download][type] = "git"
 projects[os2dagsorden_theme_ringsted][download][url] = "git://github.com/bellcom/os2dagsorden-theme.git"
 projects[os2dagsorden_theme_ringsted][download][revision] = "ringsted"
 
+; OS2web PDF converter
+projects[os2web_pdf_converter][type] = "module"
+projects[os2web_pdf_converter][download][type] = "git"
+projects[os2web_pdf_converter][download][url] = "git://github.com/bellcom/os2web_pdf_converter.git"
+
 ; OS2Web theme base
 projects[omega][subdir] = "contrib"
 projects[omega][version] = "3.x-dev"
@@ -64,7 +69,7 @@ projects[calendar][version] = "3.0"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.5"
-projects[date][patch][] = "https://drupal.org/files/date-views-default-arg-options-1202248-16.patch"
+projects[date][patch][] = "http://drupal.org/files/date-views-default-arg-options-1202248-16.patch"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
