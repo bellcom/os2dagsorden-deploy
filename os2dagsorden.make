@@ -62,7 +62,10 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta3"
+projects[context][version] = "3.2"
+
+projects[context_permisssions][subdir] = "contrib"
+projects[context_permisssions][version] = "1.0"
 
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.0"
@@ -176,6 +179,6 @@ projects[rubik][version] = "4.0-beta8"
 
 ; Translation file
 libraries[translation][download][type] = "get"
-libraries[translation][download][url] = "https://raw.github.com/OS2web/os2dagsorden-deploy/master/da.po"
+libraries[translation][download][url] = "https://raw.github.com/bellcom/os2dagsorden-deploy/ballerup/da.po"
 libraries[translation][directory_name] = "translations"
 libraries[translation][destination] = ""
